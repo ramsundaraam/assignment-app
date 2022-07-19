@@ -11,6 +11,7 @@ const CarouselComponent = () =>  {
   
 
         return (
+            <>
             <div className="carousel-wrapper">
                 <div className="home" style={{ display: 'flex', justifyContent: 'left', alignItems: 'left', paddingLeft: '2.1rem', color: 'hsl(265, 74%, 23%)', backgroundColor: 'hsl(247, 69%, 97%)', paddingTop: '0.5rem' }}>
                     <p><b className="drpsh">Home </b> </p>
@@ -69,6 +70,7 @@ const CarouselComponent = () =>  {
                 <DummyComponent></DummyComponent>
                 
             </div>
+            </>
         );
 }
 

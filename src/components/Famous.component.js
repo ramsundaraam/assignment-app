@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import Slider from "react-slick";
@@ -6,10 +6,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Card from 'react-bootstrap/Card';
 import { IoLocationSharp } from 'react-icons/io5';
 import { Link } from "react-router-dom";
-import '../images/download.jpg'
-import { Image } from 'react-bootstrap';
-const Diamond = require('../images/download.jpg');
-
+import '../images/download.jpg';
 
 
 

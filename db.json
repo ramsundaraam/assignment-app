@@ -18,8 +18,7 @@
         "id": 4,
         "name": "Mani",
         "email": "mani@mail.com",
-        "adderss": "West street"
-    }],
+        "adderss": "West street" }],
     "comments": [{
         "id": 1,
         "body": "some comment",

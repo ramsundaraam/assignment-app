@@ -1,4 +1,4 @@
-import React, {  useEffect, useState } from "react";
+import React from "react";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import Slider from "react-slick";
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -49,19 +49,6 @@ const MultiCarousel = () =>  {
                 }
             ]
         };
-
-        const [tasks,settasks] = useState([{isLoading: true, display: true, width: 98}])
-
-        useEffect( () => {
-          const fetchtasks = async () => {
-            const res = await fetch('http://localhost:3000/posts')
-            const data = await res.json() ;
-            settasks(data)
-            
-          }
-          console.log(fetchtasks())
-      
-        },[] )
       
 
         return (
@@ -71,12 +58,7 @@ const MultiCarousel = () =>  {
                 </div>
                 <div>
                     <div style={{ marginLeft: '2.1rem', paddingBottom: '4rem' }}>
-                        <div
-                            // style={{
-                            //     width: this.state.width + "%",
-                            //     display: this.state.display ? "block" : "none"
-                            // }}
-                        >
+                        <div>
                             <Slider {...settings} arrows={false}>
                                 <div>
                                 <Link to="/multi" style={{color: 'inherit', textDecoration: 'inherit'}}>
