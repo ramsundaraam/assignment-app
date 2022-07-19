@@ -6,7 +6,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Card from 'react-bootstrap/Card';
 import { IoLocationSharp } from 'react-icons/io5';
 import { Link } from "react-router-dom";
-import '../images/download.jpg';
+import '../images/download.jpg'
 
 
 
